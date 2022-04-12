@@ -44,9 +44,6 @@ body {
     font-size: 30px;
 }
 
-.down-timer span {
-}
-
 .timer {
     font-size: 50px;
     margin-top: 12px;
@@ -137,7 +134,7 @@ body {
     }
 }
 
-@media (max-height: 680px)
+@media (max-height: 680px) and (max-width: 599px)
 {
     .site-logo {
         width: 200px;
@@ -148,7 +145,7 @@ body {
     .up-timer,.down-timer {
         font-size: 15px;
     }
-    ..down-timer {
+    .down-timer {
         padding-bottom: 15px;
     }
     .footer {
