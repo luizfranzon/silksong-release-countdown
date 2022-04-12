@@ -91,10 +91,10 @@ body {
 @media (max-width: 1299px)
 {
     .up-timer, .down-timer {
-        font-size: 20px;
+        font-size: 18px;
     }
     .timer {
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 

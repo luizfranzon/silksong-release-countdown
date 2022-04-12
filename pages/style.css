@@ -34,7 +34,7 @@ body {
     margin-top: 100px;
 
     color: white;
-    width: 780px;
+    width: 620px;
 
 }
 
@@ -56,4 +56,23 @@ body {
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 15px;
+}
+
+@media (max-width: 880px) and (max-height: 760px)
+{
+    .about-box {
+        width: 300px;
+    }
+    img {
+        width: 300px;
+    }
+    .about-box h1 {
+        font-size: 1.8rem;
+    }
+    .about-box p {
+        font-size: 1rem;
+    }
+    .about-box a {
+        font-size: 1.5rem;
+    }
 }
