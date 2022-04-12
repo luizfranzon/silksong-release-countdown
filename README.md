@@ -1,2 +1,2 @@
 # Silksong Release Countdown
-<img width="300" aligh="right" src="./assets/images/logo_readme.png">
+<p aligh="center"><img width="450" src="./assets/images/logo_readme.png"></p>
