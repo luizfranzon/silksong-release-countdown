@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "trajan-bold";
+    src: url("../assets/fonts/trajan_bold.eot");
+    src: url("../assets/fonts/trajan_bold.ttf") format("woff"),
+         url("../assets/fonts/trajan_bold.otf") format("opentype"),
+         url("../assets/fonts/trajan_bold.woff2") format("woff2");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'trajan-bold', Arial, sans-serif;
+    font-weight:bold;
+    font-style:normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    height: 100vh;
+    background-color: rgb(29, 29, 29);
+}
+
+.about-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+    color: white;
+    width: 780px;
+
+}
+
+.about-box h1 {
+    margin-top: 15px;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+
+.about-box p {
+    font-size: 1.5rem;
+    margin-bottom: 18px;
+}
+.hnpage {
+    color: white;
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
