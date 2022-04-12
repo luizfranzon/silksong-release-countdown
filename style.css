@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'trajan-regular';
+    src: url('./assets/fonts/trajan_regular.ttf') format('woff2');
+}
+@font-face {
+    font-family: 'trajan-bold';
+    src: url('./assets/fonts/trajan_bold.ttf') format('woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+}
+
+.site-logo {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 200px;
+}
+
+.up-timer,.timer,.down-timer {
+    color: white;
+    font-family: 'trajan-bold', sans-serif;
+}
+
+.timer {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
