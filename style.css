@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'trajan-regular';
-    src: url('./assets/fonts/trajan_regular.ttf') format('woff2');
+    src: url('../assets/fonts/trajan_regular.ttf') format('woff2');
 }
 @font-face {
     font-family: 'trajan-bold';
-    src: url('./assets/fonts/trajan_bold.ttf') format('woff2');
+    src: url('../assets/fonts/trajan_bold.ttf') format('woff2');
 }
 
 * {
