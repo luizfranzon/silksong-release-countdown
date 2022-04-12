@@ -24,13 +24,13 @@ body {
     justify-content: flex-start;
 
     height: 100vh;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(29, 29, 29);
 }
 
 .site-logo {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 50px;
-    width: 200px;
+    width: 450px;
 }
 
 .up-timer,.timer,.down-timer {
@@ -38,7 +38,98 @@ body {
     font-family: 'trajan-bold', sans-serif;
 }
 
+.up-timer, .down-timer {
+    font-size: 30px;
+}
+
+.down-timer span {
+}
+
 .timer {
+    font-size: 50px;
     margin-top: 12px;
     margin-bottom: 12px;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: absolute;
+    bottom: 0;
+
+    height: 50px;
+    width: 100vw;
+
+    font-family: 'trajan-bold', sans-serif;
+}
+
+.creator a, .right-footer {
+
+    color: white;
+    margin: 30px;
+}
+
+.github a{
+    color: white;
+}
+
+.about a{
+    margin-right: 30px;
+    color: white;
+}
+
+.about a:hover{
+    text-decoration: underline;
+}
+.creator a:hover, .about a:hover, .github a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1299px)
+{
+    .up-timer, .down-timer {
+        font-size: 20px;
+    }
+    .timer {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 599px)
+{
+    .footer {
+        flex-direction: column;
+    }
+    .right-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .github a{
+        margin: 0px;
+        color: white;
+    }
+    
+    .about a{
+        margin: 0px;
+        color: white;
+    }
+}
+@media (max-width: 599px)
+{
+    .site-logo {
+        width: 300px;
+    }
+    .footer {
+        height: 170px;
+        justify-content: flex-start;
+    }
+    .right-footer {
+        gap:20px;
+    }
+}
+
