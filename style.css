@@ -137,3 +137,38 @@ body {
     }
 }
 
+@media (max-height: 680px)
+{
+    .site-logo {
+        width: 200px;
+    }
+    .timer {
+        font-size: 20px;
+    }
+    .up-timer,.down-timer {
+        font-size: 15px;
+    }
+    ..down-timer {
+        padding-bottom: 15px;
+    }
+    .footer {
+        height: 150px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .github a{
+        font-size: 12px;
+    }
+    
+    .about a{
+        font-size: 12px;
+    }
+    .creator a {
+        font-size: 12px;
+        padding-bottom:  10px;
+    }
+    .right-footer {
+        gap: 1px;
+    }
+}
+
