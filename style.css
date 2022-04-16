@@ -140,7 +140,8 @@ body {
         width: 200px;
     }
     .timer {
-        font-size: 20px;
+        padding: 0px 30px;
+        font-size: 30px;
     }
     .up-timer,.down-timer {
         font-size: 15px;
