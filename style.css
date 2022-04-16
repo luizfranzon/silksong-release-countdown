@@ -134,6 +134,13 @@ body {
     }
 }
 
+@media (max-width: 500px)
+{
+    .timer, .down-timer {
+        padding: 0px 30px;
+    }
+}
+
 @media (max-height: 680px) and (max-width: 599px)
 {
     .site-logo {
