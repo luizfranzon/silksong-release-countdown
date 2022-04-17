@@ -15,7 +15,7 @@ var seconds = Math.floor((difference % (1000 * 60)) / 1000);
 timer.innerText = `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`;
 
 if (difference < 0) {
-    timer.innerText = "It's Out";
+    timer.innerText = "It's Out!!!";
 }
 
 // timer changer
@@ -32,6 +32,6 @@ var timeCalc = setInterval(function () {
     timer.innerText = `${days} days, ${hours} hours, ${minutes} minutes and ${seconds} seconds`;
 
     if (difference < 0) {
-        timer.innerText = "It's Out";
+        timer.innerText = "It's Out!!!";
     }
 }, 1000);
