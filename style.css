@@ -2,9 +2,7 @@
 @font-face {
     font-family: "trajan-bold";
     src: url("./assets/fonts/trajan_bold.eot");
-    src: url("./assets/fonts/trajan_bold.ttf") format("woff"),
-         url("./assets/fonts/trajan_bold.otf") format("opentype"),
-         url("./assets/fonts/trajan_bold.woff2") format("woff2");
+    src: url("./assets/fonts/trajan_bold.woff2") format("woff2");
 }
 
 * {
