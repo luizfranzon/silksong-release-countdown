@@ -101,25 +101,18 @@ body {
     }
 }
 
-@media (max-width: 599px)
-{
-    .github a{
-        margin: 0px;
-        color: white;
-    }
-    
-    .about a{
-        margin: 0px;
-        color: white;
-    }
-}
-
 @media (max-width: 500px)
 {
     .timer, .down-timer {
         padding: 0px 30px;
     }
 }
+
+@media (max-width: 599px)
+{
+    
+}
+
 
 @media (max-width: 599px)
 {
@@ -159,11 +152,23 @@ body {
 /* Footer */
 @media (max-width: 640px)
 {
+    .github a{
+        margin: 0px;
+        color: white;
+    }
+    
+    .about a{
+        margin: 0px;
+        color: white;
+    }
     .footer {
+        align-items: center;
         flex-direction: column;
     }
     .right-footer {
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
         gap: 20px;
     }
