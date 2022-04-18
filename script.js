@@ -35,3 +35,13 @@ var timeCalc = setInterval(function () {
         timer.innerText = "It's Out!!!";
     }
 }, 1000);
+
+
+
+// Testing
+// const width = window.screen.width;
+// const height = window.screen.height;
+
+// console.log(`${width} largura x${height} altura`)
+
+

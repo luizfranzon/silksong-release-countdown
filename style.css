@@ -91,7 +91,7 @@ body {
     text-decoration: underline;
 }
 
-@media (max-width: 1299px)
+@media (max-width: 1399px)
 {
     .up-timer, .down-timer {
         font-size: 18px;
@@ -103,16 +103,6 @@ body {
 
 @media (max-width: 599px)
 {
-    .footer {
-        flex-direction: column;
-    }
-    .right-footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
     .github a{
         margin: 0px;
         color: white;
@@ -123,24 +113,18 @@ body {
         color: white;
     }
 }
-@media (max-width: 599px)
-{
-    .site-logo {
-        width: 300px;
-    }
-    .footer {
-        height: 170px;
-        justify-content: flex-start;
-    }
-    .right-footer {
-        gap:20px;
-    }
-}
 
 @media (max-width: 500px)
 {
     .timer, .down-timer {
         padding: 0px 30px;
+    }
+}
+
+@media (max-width: 599px)
+{
+    .site-logo {
+        width: 300px;
     }
 }
 
@@ -159,11 +143,6 @@ body {
     .down-timer {
         padding-bottom: 15px;
     }
-    .footer {
-        height: 150px;
-        justify-content: flex-end;
-        align-items: center;
-    }
     .github a{
         font-size: 12px;
     }
@@ -175,8 +154,24 @@ body {
         font-size: 12px;
         padding-bottom:  10px;
     }
+}
+
+/* Footer */
+@media (max-width: 640px)
+{
+    .footer {
+        flex-direction: column;
+    }
     .right-footer {
-        gap: 1px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .right-footer span {
+        font-size: 1.5rem;
+    }
+    .footer p {
+        padding-bottom: 30px;
     }
 }
 
