@@ -12,7 +12,7 @@ var hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 var minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
 var seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
-timer.innerText = `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`;
+timer.innerText = `${days} days, ${hours} hours, ${minutes} minutes and ${seconds} seconds`;
 
 if (difference < 0) {
     timer.innerText = "It's Out!!!";
