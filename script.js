@@ -1,7 +1,7 @@
 const timer = document.getElementById("timer");
 
 // Time Calc
-const destTime = new Date("feb 28, 2028 22:00:00").getTime();
+const destTime = new Date("jun 12, 2023 23:59:59").getTime();
 
 var now = new Date().getTime();
 
